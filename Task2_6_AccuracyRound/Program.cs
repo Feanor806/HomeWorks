@@ -7,7 +7,10 @@
         {
             //Получаем длину трубы в м
             Console.Write("Укажите длину трубы (в метрах): ");
-            double pipeLength = Math.Abs(Convert.ToDouble(Console.ReadLine()));
+            double pipeLength = 
+                Math.Abs(
+                    Convert.ToDouble(
+                        Console.ReadLine()));
 
             //Округляем значение с точностью до 0.5 метра
             pipeLength = Math.Round(pipeLength / 0.5, 0) * 0.5;

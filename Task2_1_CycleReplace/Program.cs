@@ -10,7 +10,7 @@ namespace Task2_1_CycleReplace
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            //ПОлучаем значения от пользователя
+            //Получаем значения от пользователя
             Console.Write("Введите значение числа a: ");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.Write("Введите значение числа b: ");

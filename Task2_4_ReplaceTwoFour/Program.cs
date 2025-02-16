@@ -10,21 +10,15 @@ namespace Task2_4_ReplaceTwoFour
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            //объявляение переменных
-            byte first;
-            byte second;
-            byte third;
-            byte fourth;
-
             //Получение числа от пользователя
             Console.Write("Введите четырехзначное число: ");
             int number = Convert.ToInt32(Console.ReadLine());
 
             //Получение элементов числа
-            first = (byte)(number / 1000);
-            second = (byte)(number % 1000 / 100);
-            third = (byte)(number % 100 / 10);
-            fourth = (byte)(number % 10);
+            byte first = (byte)(number / 1000);
+            byte second = (byte)(number % 1000 / 100);
+            byte third = (byte)(number % 100 / 10);
+            byte fourth = (byte)(number % 10);
 
             //Перестановка элементов 2 и 4
             fourth = (byte)(fourth + second);
@@ -35,7 +29,7 @@ namespace Task2_4_ReplaceTwoFour
             number = first * 1000 + second * 100 + third * 10 + fourth;
 
             //Выведение результата
-            Console.WriteLine($"Новое число с переставленным 2 и 4 членом: {number}");
+            Console.WriteLine($"Новое число с переставленными 2 и 4 членом: {number}");
             Console.WriteLine($"Нажмите любую кнопку для завершения.");
             Console.ReadKey();
         }

@@ -28,20 +28,18 @@
             degrees = Math.Abs(degrees);
 
             //Перевод градусов минут и секунд в десятичное значение. Углы более 360 градусов приводятся к значениям от 0 до 360.
-            decimalDegrees = (double)(degrees + (double)minutes / 60 + (double)seconds / 3600) % 360;
+            decimalDegrees = (double)(degrees + (double)minutes / 60 + (double)seconds / 3600);
 
             //Вычисление значения угла в радианах c округлением до 5 знаков
             radians = Math.Round(decimalDegrees * Math.PI / 180, 5) * sign;
 
             //Вычисление эквивалентного угла (для углов более 360 градусов и для значений минут и секунд более 60)
-            degrees = (int)Math.Floor(decimalDegrees);
-            minutes = (byte)Math.Floor((decimalDegrees - degrees)*60);
-            seconds = (byte)((decimalDegrees - degrees - (double)minutes/60) * 3600);
+            degrees = (int)Math.Floor(decimalDegrees % 360);
+            minutes = (byte)Math.Floor((decimalDegrees % 360 - degrees)*60);
+            seconds = (byte)((decimalDegrees % 360 - degrees - (double)minutes/60) * 3600);
 
             //Добавляем знак к значению угла
             degrees = degrees * sign;
-
-            //Привести значение отрицательного угла к диапазону 0...360 не получится без операции сравнения
 
             //Вывод величины углв в радианах и вывод эквивалентного угла (для углов более 360 град)
             Console.WriteLine($"Величина указанного угла в радианах: {radians}");
