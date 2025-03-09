@@ -19,6 +19,11 @@
             {
                 Console.WriteLine("0! всегда равен 1");
             }
+            //Проверка переполнения
+            else if (number >= 13)
+            {
+                Console.WriteLine($"{number}! слишком большое число для хранеия в int");
+            }
             else
             {
                 for (int i = 1; i <= number; i++)
