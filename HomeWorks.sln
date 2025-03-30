@@ -91,6 +91,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task7_3_PrintNumbers", "Tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task7_5_Multiply", "Task7_5_Multiply\Task7_5_Multiply.csproj", "{5E008ECE-0008-4973-B24C-9A39F6B38D36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task8_1_Calculator", "Task8_1_Calculator\Task8_1_Calculator.csproj", "{29F438A4-E0DA-4F81-8388-C7B92C0AE26C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task8_2_ValidateAge", "Task8_2_ValidateAge\Task8_2_ValidateAge.csproj", "{6C357C07-52DB-49B7-AFDF-21B8BEF74602}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +277,14 @@ Global
 		{5E008ECE-0008-4973-B24C-9A39F6B38D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E008ECE-0008-4973-B24C-9A39F6B38D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E008ECE-0008-4973-B24C-9A39F6B38D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F438A4-E0DA-4F81-8388-C7B92C0AE26C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F438A4-E0DA-4F81-8388-C7B92C0AE26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F438A4-E0DA-4F81-8388-C7B92C0AE26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F438A4-E0DA-4F81-8388-C7B92C0AE26C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C357C07-52DB-49B7-AFDF-21B8BEF74602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C357C07-52DB-49B7-AFDF-21B8BEF74602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C357C07-52DB-49B7-AFDF-21B8BEF74602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C357C07-52DB-49B7-AFDF-21B8BEF74602}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
