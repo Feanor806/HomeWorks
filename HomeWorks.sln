@@ -95,6 +95,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task8_1_Calculator", "Task8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task8_2_ValidateAge", "Task8_2_ValidateAge\Task8_2_ValidateAge.csproj", "{6C357C07-52DB-49B7-AFDF-21B8BEF74602}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task11_1_Animals", "Task11_1_Animals\Task11_1_Animals.csproj", "{FBC7E7B3-ED80-47B7-B455-5A44FD5BC628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task11_2_Flight", "Task11_2_Flight\Task11_2_Flight.csproj", "{514946D3-020D-4A1D-8B4F-6D4F2F4070F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +289,14 @@ Global
 		{6C357C07-52DB-49B7-AFDF-21B8BEF74602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C357C07-52DB-49B7-AFDF-21B8BEF74602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C357C07-52DB-49B7-AFDF-21B8BEF74602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC7E7B3-ED80-47B7-B455-5A44FD5BC628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC7E7B3-ED80-47B7-B455-5A44FD5BC628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC7E7B3-ED80-47B7-B455-5A44FD5BC628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC7E7B3-ED80-47B7-B455-5A44FD5BC628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514946D3-020D-4A1D-8B4F-6D4F2F4070F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514946D3-020D-4A1D-8B4F-6D4F2F4070F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514946D3-020D-4A1D-8B4F-6D4F2F4070F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514946D3-020D-4A1D-8B4F-6D4F2F4070F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
