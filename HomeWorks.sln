@@ -95,6 +95,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task8_1_Calculator", "Task8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task8_2_ValidateAge", "Task8_2_ValidateAge\Task8_2_ValidateAge.csproj", "{6C357C07-52DB-49B7-AFDF-21B8BEF74602}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task9_1_Library", "Task9_1_Library\Task9_1_Library.csproj", "{9D85C4DF-9FFC-436F-9F7A-ECA74DD2D342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task9_2_BankAccount", "Task9_2_BankAccount\Task9_2_BankAccount.csproj", "{15960DA6-DF11-4998-9047-DA4F6B89FA3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +289,14 @@ Global
 		{6C357C07-52DB-49B7-AFDF-21B8BEF74602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C357C07-52DB-49B7-AFDF-21B8BEF74602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C357C07-52DB-49B7-AFDF-21B8BEF74602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D85C4DF-9FFC-436F-9F7A-ECA74DD2D342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D85C4DF-9FFC-436F-9F7A-ECA74DD2D342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D85C4DF-9FFC-436F-9F7A-ECA74DD2D342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D85C4DF-9FFC-436F-9F7A-ECA74DD2D342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15960DA6-DF11-4998-9047-DA4F6B89FA3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15960DA6-DF11-4998-9047-DA4F6B89FA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15960DA6-DF11-4998-9047-DA4F6B89FA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15960DA6-DF11-4998-9047-DA4F6B89FA3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
