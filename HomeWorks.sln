@@ -111,6 +111,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Block14_1_Transforms", "Blo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Block14_2_SmartHouse", "Block14_2_SmartHouse\Block14_2_SmartHouse.csproj", "{C4577B65-9712-4D9E-A5E4-6858B9DDF742}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task13_1_GuessTheNumber", "Task13_1_GuessTheNumber\Task13_1_GuessTheNumber.csproj", "{FABA1B46-0536-4FEC-ABE1-44C50960E0F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task13_2_DaVinciCode", "Task13_2_DaVinciCode\Task13_2_DaVinciCode.csproj", "{012EB9C7-EDD0-48D4-B83D-BD3193D395E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -321,6 +325,14 @@ Global
 		{514946D3-020D-4A1D-8B4F-6D4F2F4070F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{514946D3-020D-4A1D-8B4F-6D4F2F4070F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{514946D3-020D-4A1D-8B4F-6D4F2F4070F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FABA1B46-0536-4FEC-ABE1-44C50960E0F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FABA1B46-0536-4FEC-ABE1-44C50960E0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FABA1B46-0536-4FEC-ABE1-44C50960E0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FABA1B46-0536-4FEC-ABE1-44C50960E0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{012EB9C7-EDD0-48D4-B83D-BD3193D395E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012EB9C7-EDD0-48D4-B83D-BD3193D395E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012EB9C7-EDD0-48D4-B83D-BD3193D395E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012EB9C7-EDD0-48D4-B83D-BD3193D395E9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ED09ABBE-FD2E-4E75-B96A-0863B21544E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED09ABBE-FD2E-4E75-B96A-0863B21544E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED09ABBE-FD2E-4E75-B96A-0863B21544E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
