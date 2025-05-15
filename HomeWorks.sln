@@ -115,6 +115,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task13_1_GuessTheNumber", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task13_2_DaVinciCode", "Task13_2_DaVinciCode\Task13_2_DaVinciCode.csproj", "{012EB9C7-EDD0-48D4-B83D-BD3193D395E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task13_3_RPG", "Task13_3_RPG\Task13_3_RPG.csproj", "{57345D4E-F050-49E6-8E68-6158670CC749}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +335,10 @@ Global
 		{012EB9C7-EDD0-48D4-B83D-BD3193D395E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{012EB9C7-EDD0-48D4-B83D-BD3193D395E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{012EB9C7-EDD0-48D4-B83D-BD3193D395E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57345D4E-F050-49E6-8E68-6158670CC749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57345D4E-F050-49E6-8E68-6158670CC749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57345D4E-F050-49E6-8E68-6158670CC749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57345D4E-F050-49E6-8E68-6158670CC749}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ED09ABBE-FD2E-4E75-B96A-0863B21544E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED09ABBE-FD2E-4E75-B96A-0863B21544E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED09ABBE-FD2E-4E75-B96A-0863B21544E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
