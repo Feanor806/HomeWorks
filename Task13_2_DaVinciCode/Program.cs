@@ -6,7 +6,11 @@ namespace Task13_2_DaVinciCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Encrypt("HELLO 123"));
+            string phrase = "HELLO 123";
+            phrase = Encrypt(phrase);
+            Console.WriteLine(phrase);
+            phrase = Encrypt(phrase);
+            Console.WriteLine(phrase);
         }
 
         //Алфавит латинский строчный
