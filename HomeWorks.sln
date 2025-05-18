@@ -105,6 +105,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task11_1_Animals", "Task11_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task11_2_Flight", "Task11_2_Flight\Task11_2_Flight.csproj", "{514946D3-020D-4A1D-8B4F-6D4F2F4070F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task12_1_Books", "Task12_1_Books\Task12_1_Books.csproj", "{ED09ABBE-FD2E-4E75-B96A-0863B21544E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -315,6 +317,10 @@ Global
 		{514946D3-020D-4A1D-8B4F-6D4F2F4070F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{514946D3-020D-4A1D-8B4F-6D4F2F4070F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{514946D3-020D-4A1D-8B4F-6D4F2F4070F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED09ABBE-FD2E-4E75-B96A-0863B21544E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED09ABBE-FD2E-4E75-B96A-0863B21544E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED09ABBE-FD2E-4E75-B96A-0863B21544E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED09ABBE-FD2E-4E75-B96A-0863B21544E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
